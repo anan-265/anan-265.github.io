@@ -4,59 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
     <header>
-        <a href="#" target="_blank">LinkedIn</a>
-        <a href="https://www.github.com/anan-265" target="_blank">GitHub</a>
-        <a href="mailto:ananthu2653@outlook.com">Email</a>
+        <div class="name">
+            Anantha Venkata Subramanyam G
+        </div>
+        <div>
+            <a href="https://www.linkedin.com/in/anan265/" target="_blank">LinkedIn</a>
+            <a href="https://www.github.com/anan-265" target="_blank">GitHub</a>
+            <a href="mailto:ananthu2653@outlook.com">Email</a>
+        </div>
     </header>
-    <section>
-    <h1>Welcome to My Landing Page</h1>
-    <p>I am a bioinformatician with an open mind to learn new skills and technologies. If you are interested in collaborating with me, feel free to contact!</p>
-    <div><a href="#">Contact Me</a></div>
-    <img src="./assets/index/hello.png" alt="Hello Image">
+    <section class="hero-section">
+        <div class="hero">
+            <h1>Welcome to My Landing Page</h1>
+            <p>I am a bioinformatician with an open mind to learn new skills and technologies. If you are interested in collaborating with me, feel free to contact!</p>
+            <button><a href="mailto:ananthu2653@outlook.com">Contact Me</a></button>
+        </div>
+        <img src="./assets/index/hello.png" alt="Hello Image">
     </section>
-    <section>
-        <h2>Few Projects made</h2>
-        <div>
-            <figure>
-                <img src="./assets/index/project1.png" alt="Project 1">
-                <figcaption>Project 1 Description</figcaption>
-            </figure>
-        </div>
-        <div>
-            <figure>
-                <img src="./assets/index/project2.png" alt="Project 2">
-                <figcaption>Project 2 Description</figcaption>
-            </figure>
-        </div>
-        <div>
-            <figure>
-                <img src="./assets/index/project3.png" alt="Project 3">
-                <figcaption>Project 3 Description</figcaption>
-            </figure>
-        </div>
-        <div>
-            <figure>
-                <img src="./assets/index/project4.png" alt="Project 4">
-                <figcaption>Project 4 Description</figcaption>
-            </figure>
-        </div>
-    </section>
-    <section>
-        <div>
-            A quote
-        </div>
-        <div>
-            Author
+    <section class="projects-section">
+        <h2>My Projects thus far</h2>
+        <div class="projects-container">
+            <div>
+                <figure>
+                    <a href="https://github.com/anan-265/bacalyze" target="_blank"><img src="./assets/index/bacalyze.png" alt="Splash Screen of Bacalyze">
+                    <figcaption>BACALYZE - BACterial genome anALYZEr</figcaption></a>
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <a href="https://anan-265.github.io/odin-recipes/" target="_blank"><img src="./assets/index/odin-recipes.jpeg" alt="Screenshot of Odin Recipes">
+                    <figcaption>ODIN RECIPES - A Project as a part of the curriculum of The Odin Project</figcaption></a>
+                </figure>
+            </div>
+            <!-- <div>
+                <figure>
+                    <img src="./assets/index/project3.png" alt="Project 3">
+                    <figcaption>Project 3 Description</figcaption>
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <img src="./assets/index/project4.png" alt="Project 4">
+                    <figcaption>Project 4 Description</figcaption>
+                </figure>
+            </div> -->
         </div>
     </section>
-    <section>
-        <div>
-            <h3>Checkout my GitHub page</h3>
-            <p>Go to my GitHub page by clicking the button over there!</p>
-            <button><a href="https://www.github.com/anan-265" target="_blank">Go to GitHub</a></button>
+    <section class="quote-section">
+        <div class="quote-container">
+            <div class="quote">
+                “To learn is to gain knowledge; to live is to apply knowledge for the benefit of all.”
+            </div>
+            <div class="author">
+                — Kural 391
+            </div>
+        </div>
+    </section>
+    <section class="github">
+        <div class="github-container">
+            <div>
+                <h3>Checkout my GitHub page</h3>
+                <p>Go to my GitHub page by clicking the button over there!</p>
+            </div>
+                <button><a href="https://www.github.com/anan-265" target="_blank">Go to GitHub</a></button>
         </div>
     </section>
     <footer>
